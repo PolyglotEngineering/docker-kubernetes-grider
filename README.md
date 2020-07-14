@@ -52,3 +52,6 @@ Behind the scenes, that image has a snapshot and startup command as a running pr
 So the whole idea of CGroups and namespacing is Linux based terminology that unless you are running a Linux. If you are on Mac or Windows, what happens is when you installed Docker, you also installed a Linux Virtual Machine that runs as long as Docker is running. So you have running processes that hit the Linux kernel in Linux Virtual machine. The Linux Kernel handles the allocation of resources, and then you have access to that Container on your respective OS.
 
 ## Docker Volumes
+
+
+## Docker-Compose
