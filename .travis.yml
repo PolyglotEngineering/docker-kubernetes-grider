@@ -4,3 +4,7 @@ services:
 
 before_install:
   - docker build -t codefuldom/docker-aws-travisci -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true codefuldom/docker-aws-travisci  npm run test -- --coverage
+language: generic
